@@ -3,11 +3,20 @@ body {
   background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+<<<<<<< HEAD
+=======
+  background-color: coral;
+  
+>>>>>>> 684f95f45daba89cf164d863a2902f1e33ee82d2
 }
 /* What kind of selector is this? */
 .logo {
   width: 150px;
+<<<<<<< HEAD
   height: 150px;
+=======
+  height: 100px;
+>>>>>>> 684f95f45daba89cf164d863a2902f1e33ee82d2
   margin: 3% 10%;
 }
 
@@ -22,7 +31,11 @@ main {
   width: 100%;
   display: grid;
   grid-template-columns: 30% 40% 30%;
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 684f95f45daba89cf164d863a2902f1e33ee82d2
 }
 
 /* This is an element within and element selector */ 
@@ -63,10 +76,17 @@ nav {
 }
 
 h1 {
+<<<<<<< HEAD
   color:white;
   grid-column: 2/3;
   margin: 3% auto;
   border-bottom: 2px solid #1940A9;;
+=======
+  color: cadetblue;
+  grid-column: 2/3;
+  margin: 3% auto;
+  
+>>>>>>> 684f95f45daba89cf164d863a2902f1e33ee82d2
 }
 
 h2 {
@@ -97,4 +117,30 @@ button {
   color: white;
   letter-spacing: 16px;
   font-style: italic;
+<<<<<<< HEAD
+=======
+}
+
+footer {
+    position: flex;
+    left: 0;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    background-color: lightsalmon; 
+    color: white;
+    text-align: left;
+ }
+
+
+/* Colors for nav text */
+
+.resume {color: cadetblue;
+}
+.aboutme {color: cadetblue;
+}
+.myblog {color: cadetblue;
+}
+.contactme {color: white;
+>>>>>>> 684f95f45daba89cf164d863a2902f1e33ee82d2
 }
